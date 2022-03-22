@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="inu.jinsol.hug.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_shelter_list"
+        android:name="inu.jinsol.hug.ui.shelterlist.ShelterListFragment"
+        android:label="@string/title_shelter_list"
+        tools:layout="@layout/fragment_shelterinfo" />
+    <fragment
+        android:id="@+id/navigation_shelter_info"
+        android:name="inu.jinsol.hug.ui.shelterinfo.ShelterInfoFragment"
+        android:label="@string/title_shelter_info"
+        tools:layout="@layout/fragment_shelterlist" />
+    <fragment
+        android:id="@+id/navigation_shelter_search"
+        android:name="inu.jinsol.hug.ui.sheltersearch.ShelterSearchFragment"
+        android:label="@string/title_shelter_search"
+        tools:layout="@layout/fragment_sheltersearch" />
+</navigation>

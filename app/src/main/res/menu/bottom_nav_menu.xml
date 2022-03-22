@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 하단 메뉴 순서대로 배치 -->
+    <item
+        android:id="@+id/navigation_shelter_search"
+        android:icon="@drawable/ic_menu_shelter_search"
+        android:title="@string/title_shelter_search" />
+    <item
+        android:id="@+id/navigation_shelter_list"
+        android:icon="@drawable/ic_menu_shelter_list"
+        android:title="@string/title_shelter_list" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_menu_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_menu_chat"
+        android:title="@string/title_chat" />
+    <item
+        android:id="@+id/navigation_shelter_info"
+        android:icon="@drawable/ic_menu_shelter_info"
+        android:title="@string/title_shelter_info" />
+</menu>
