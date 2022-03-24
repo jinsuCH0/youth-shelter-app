@@ -9,13 +9,14 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationBarView
 import inu.jinsol.hug.databinding.ActivityMainBinding
 import inu.jinsol.hug.ui.home.HomeFragment
 import inu.jinsol.hug.ui.shelterinfo.ShelterInfoFragment
 import inu.jinsol.hug.ui.shelterlist.ShelterListFragment
 import inu.jinsol.hug.ui.sheltersearch.ShelterSearchFragment
 
-class MainActivity : AppCompatActivity()/*, NavigationView.OnNavigationItemSelectedListener */{
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
@@ -36,16 +37,16 @@ class MainActivity : AppCompatActivity()/*, NavigationView.OnNavigationItemSelec
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        navView.setOnNavigationItemSelectedListener(onBottomNavItemSelectedListener)
+        navView.setOnItemSelectedListener (onBottomNavItemSelectedListener)
     }
 
     override fun onBackPressed() {
         super.onBackPressed()
-        // 뒤로가기 눌렀을 때 이전 페이지 나타나도록 구현 필요
-    }
+
+    }   // 뒤로가기 눌렀을 때 이전 페이지 나타나도록 구현 필요
 
     // 하단 메뉴 클릭 리스너
-   private val onBottomNavItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {
+   private val onBottomNavItemSelectedListener = NavigationBarView.OnItemSelectedListener {
         when(it.itemId){
             R.id.navigation_home ->supportFragmentManager.beginTransaction().replace(R.id.container, HomeFragment()).commit()
             R.id.navigation_shelter_list ->supportFragmentManager.beginTransaction().replace(R.id.container, ShelterListFragment()).commit()
