@@ -20,7 +20,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.snackbar.Snackbar
 import inu.jinsol.hug.databinding.FragmentHomeBinding
 import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
@@ -41,32 +41,31 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-
-        val homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java) // <- 필요한지 모르겠음
+        //val homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java) // <- 필요한지 모르겠음
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
 
         // fragment에 지도 부착
         val mapView = MapView(activity)
         val mapViewContainer = binding.mapView
         mapViewContainer.addView(mapView)
+        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.53737528, 127.00557633), true)   // 지도 초기 위치
 
-        /*
-       // fab 클릭 리스너
-       binding.appBarMain.searchFilter.setOnClickListener { view ->
-           Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-               .setAction("Action", null).show()*/
-
-
-        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.53737528, 127.00557633), true);
+        // 카카오맵에 리스너 등록
         mapView.setCurrentLocationEventListener(this) // <- 매개변수 오류
-
+        binding.enabledCompass.setOnClickListener { view ->
+            Snackbar.make(view, "나침반 모드를 활성화합니다.", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show()
+            mapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading)
+        }   // 나침반 모드 fab 클릭 리스너
+        binding.searchFilter.setOnClickListener { view ->
+            Snackbar.make(view, "필터링 검색 구현 예정", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show()
+        }     // 필터링 검색 fab 클릭 리스너
 
         checkAllPermissions() // 권한 확인
 
-        mapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading)
         return root
     }
 
