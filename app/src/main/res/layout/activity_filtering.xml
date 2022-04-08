@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FilteringActivity">
+
+    <TextView
+        android:id="@+id/txt_filter_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/txt_title_sex"
+        android:textColor="@color/main_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/btn_group_sex"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toEndOf="@+id/txt_filter_sex"
+        app:layout_constraintTop_toTopOf="@+id/txt_filter_sex">
+        <RadioButton
+            android:id="@+id/btn_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="남" />
+
+        <RadioButton
+            android:id="@+id/btn_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="여" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_filter_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+
+        android:text="@string/txt_title_birth"
+        android:textColor="@color/main_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txt_filter_sex"
+        app:layout_constraintTop_toBottomOf="@+id/txt_filter_sex" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toEndOf="@+id/txt_filter_birth"
+        app:layout_constraintTop_toTopOf="@+id/txt_filter_birth" />
+
+    <TextView
+        android:id="@+id/txt_filter_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_title_period"
+        android:textColor="@color/main_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txt_filter_sex"
+        app:layout_constraintTop_toBottomOf="@+id/txt_filter_birth" />
+
+    <RadioGroup
+        android:id="@+id/btn_group_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/txt_filter_period"
+        app:layout_constraintTop_toTopOf="@+id/txt_filter_period">
+
+        <RadioButton
+            android:id="@+id/btn_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="단기(7일)" />
+
+        <RadioButton
+            android:id="@+id/btn_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="중장기()" />
+
+        <RadioButton
+            android:id="@+id/btn_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="장기" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chk_privacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text=" 개인정보 제공 동의하십니까? "
+        android:padding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_filter_period" />
+
+    <Button
+        android:id="@+id/btn_filtering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="필터링하기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_privacyPolicy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,162 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_shelter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:text="서울시자립중장기청소년쉼터"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txt_shelter_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+
+        android:text="중장기"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_title_period"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_sex" />
+
+    <TextView
+        android:id="@+id/txt_shelter_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:text="최대 3년"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_shelter_type"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_sex" />
+
+    <TextView
+        android:id="@+id/txt_shelter_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="6dp"
+        android:text="남"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_title_sex"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_sex" />
+
+    <TextView
+        android:id="@+id/txt_shelter_location_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="6dp"
+        android:text="경기도"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_title_location"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_location" />
+
+    <TextView
+        android:id="@+id/txt_shelter_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="6dp"
+        android:text="032-1234-5678"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_title_phone"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_phone" />
+
+    <TextView
+        android:id="@+id/txt_title_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txt_title_phone"
+        android:textColor="@color/main_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_shelter_location_street" />
+
+    <TextView
+        android:id="@+id/txt_shelter_location_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:text="안산시"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/txt_shelter_location_state"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_location" />
+
+    <TextView
+        android:id="@+id/txt_title_period"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
+
+        android:layout_marginStart="48dp"
+        android:text="@string/txt_title_period"
+        android:textColor="@color/main_color"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txt_shelter_sex"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_sex" />
+
+    <TextView
+        android:id="@+id/txt_shelter_location_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="4dp"
+        android:text="동안구 관악대로 346 코오롱동산타워 상가동 401호"
+        android:textSize="15sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/txt_shelter_location_city"
+        app:layout_constraintTop_toTopOf="@+id/txt_title_location" />
+
+    <TextView
+        android:id="@+id/txt_title_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="12dp"
+        android:text="@string/txt_title_sex"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_shelter_name" />
+
+    <TextView
+        android:id="@+id/txt_title_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+
+        android:text="@string/txt_title_location"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title_sex" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

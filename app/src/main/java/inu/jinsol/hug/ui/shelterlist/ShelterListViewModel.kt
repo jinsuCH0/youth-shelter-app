@@ -10,4 +10,6 @@ class ShelterListViewModel : ViewModel() {
         value = "This is list of shelter Fragment"
     }
     val text: LiveData<String> = _text
+
+    val cityList = listOf<String>("서울시", "인천시", "경기도")
 }

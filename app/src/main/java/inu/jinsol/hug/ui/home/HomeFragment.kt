@@ -21,6 +21,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
+import inu.jinsol.hug.activity.FilteringActivity
 import inu.jinsol.hug.databinding.FragmentHomeBinding
 import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
@@ -32,7 +33,7 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
 
     private val PERMISSIONS_REQUEST_CODE = 100  // 퍼미션 요청 코드
     // 요청할 권한 목록
-    var REQUIRED_PERMISSIONS = arrayOf(
+    private var REQUIRED_PERMISSIONS = arrayOf(
         Manifest.permission.ACCESS_FINE_LOCATION,
         Manifest.permission.ACCESS_COARSE_LOCATION)
 
@@ -57,11 +58,15 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
         binding.enabledCompass.setOnClickListener { view ->
             Snackbar.make(view, "나침반 모드를 활성화합니다.", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
-            mapView.setCurrentLocationTrackingMode(MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading)
+            mapView.currentLocationTrackingMode = MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading
         }   // 나침반 모드 fab 클릭 리스너
+
         binding.searchFilter.setOnClickListener { view ->
             Snackbar.make(view, "필터링 검색 구현 예정", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+
+            val intentFilter = Intent(requireActivity(), FilteringActivity::class.java)
+            startActivity(intentFilter)
         }     // 필터링 검색 fab 클릭 리스너
 
         checkAllPermissions() // 권한 확인
