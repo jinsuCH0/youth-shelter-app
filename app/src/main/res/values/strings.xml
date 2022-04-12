@@ -14,4 +14,17 @@
     <string name="txt_title_location">위치</string>
     <string name="txt_title_phone">전화번호</string>
     <string name="txt_title_birth">생년월일</string>
+
+    <!--  도시 이름  -->
+    <string name="seoul">서울시</string>
+    <string name="incheon">인천시</string>
+    <string name="gyunggi">경기도</string>
+
+    <!--  청소년 쉼터란?  -->
+    <string name="txt_title_shelterinfo">선생님! 청소년 쉼터는 어떤 곳이죠?</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

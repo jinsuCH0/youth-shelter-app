@@ -23,6 +23,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
 import inu.jinsol.hug.activity.FilteringActivity
 import inu.jinsol.hug.databinding.FragmentHomeBinding
+import net.daum.mf.map.api.MapPOIItem
 import net.daum.mf.map.api.MapPoint
 import net.daum.mf.map.api.MapView
 
@@ -43,9 +44,7 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         //val homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java) // <- 필요한지 모르겠음
-
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
         // fragment에 지도 부착
         val mapView = MapView(activity)
@@ -55,23 +54,63 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
 
         // 카카오맵에 리스너 등록
         mapView.setCurrentLocationEventListener(this) // <- 매개변수 오류
+        binding.viewingSeoul.setOnClickListener{
+            mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.55191388888888, 126.99185111111112), true)
+            mapView.setZoomLevel(7, true)
+        }
+        binding.viewingIncheon.setOnClickListener{
+            mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.436072, 126.691928), true)
+            mapView.setZoomLevel(7, true)
+        }
+        binding.viewingGyunggi.setOnClickListener{
+            mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.35818799760668, 127.21890971816605), true)
+            mapView.setZoomLevel(10, true)
+        }
         binding.enabledCompass.setOnClickListener { view ->
-            Snackbar.make(view, "나침반 모드를 활성화합니다.", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-            mapView.currentLocationTrackingMode = MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading
-        }   // 나침반 모드 fab 클릭 리스너
+            var select = false
 
-        binding.searchFilter.setOnClickListener { view ->
-            Snackbar.make(view, "필터링 검색 구현 예정", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            if (!select) {
+                select = true
+                Snackbar.make(view, "나침반 모드를 활성화합니다.", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show()
+                mapView.currentLocationTrackingMode = MapView.CurrentLocationTrackingMode.TrackingModeOnWithHeading
+                mapView.setZoomLevel(3, true)
+            } else {
+                select = false
+                Snackbar.make(view, "나침반 모드를 비활성화합니다.", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show()
+                mapView.currentLocationTrackingMode = MapView.CurrentLocationTrackingMode.TrackingModeOff
+
+            }
+        }   // 나침반 모드 fab 클릭 리스너
+        binding.searchFilter.setOnClickListener {
+//            Snackbar.make(view, "필터링 검색 구현 예정", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
 
             val intentFilter = Intent(requireActivity(), FilteringActivity::class.java)
             startActivity(intentFilter)
         }     // 필터링 검색 fab 클릭 리스너
 
-        checkAllPermissions() // 권한 확인
 
-        return root
+        checkAllPermissions() // 권한 확인
+        createMarker(mapView)
+
+        return binding.root
+    }
+
+    private fun createMarker(mapView: MapView) {
+        val mapPoint = MapPoint.mapPointWithGeoCoord(37.28730797086605, 127.01192716921177)
+        val marker = MapPOIItem()
+        marker.itemName = "이곳이 수원 화성입니다"
+        marker.mapPoint = mapPoint
+        marker.markerType = MapPOIItem.MarkerType.BluePin
+        marker.selectedMarkerType = MapPOIItem.MarkerType.RedPin
+
+        mapView.addPOIItem(marker)
+    }
+
+    private fun viewingCity(){
+
     }
 
     override fun onAttach(context: Context) {
@@ -175,5 +214,4 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
     override fun onCurrentLocationDeviceHeadingUpdate(p0: MapView?, p1: Float) {}
     override fun onCurrentLocationUpdateCancelled(p0: MapView?) {}
     override fun onCurrentLocationUpdateFailed(p0: MapView?) {}
-
 }

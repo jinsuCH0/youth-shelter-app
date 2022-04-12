@@ -25,4 +25,13 @@
         <item name="android:windowBackground">@drawable/loading_splash</item>
     </style>
 
+    <!--  플로팅버튼 테마  -->
+    <style name="fabShapeTheme">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopLeft">50%</item>
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+    </style>
 </resources>

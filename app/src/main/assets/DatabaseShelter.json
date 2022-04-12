@@ -1,0 +1,1246 @@
+{
+  "list": [
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },     
+      "name": "서울특별시립금천청소년쉼터",
+      "age": "9-24(세)",
+      "sex": true,
+      "code": 1001,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "봉은사로 114길 43, 서울의료원 강남분원 신관 1층",
+        "city": "강남구",
+        "state": "서울시",
+        "lat": 37.47601997, 
+        "lng" : 126.88378105
+      },
+      "mail": "32818200@hanmail.net",
+      "phone": "02-3281-8200",
+      "personnel": null,
+      "homepage": "http://www.youthzone.or.kr/y/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "서울시립드림일시청소년쉼터",
+      "sex": null,
+      "code": 1002,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "봉은사로 114길 43, 신관 서울시립청소년드림센터 5층",
+        "city": "강남구",
+        "state": "서울시",
+        "lat": 37.51281940,
+        "lng": 127.06666642
+
+      },
+      "mail": "dream111202@naver.com",
+      "phone": "02-2051-1371",
+      "homepage": "http://www.dreamhome.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "gbdream7979",
+        "facebook": null
+      },
+      "name": "서울시립강북청소년드림센터",
+      "age": "9-24(세)",
+      "sex": false,
+      "code": 1003,
+      "location": {
+        "street": "한천로140길 5-26(수유3동)",
+        "city": "강북구",
+        "state": "서울시",
+        "lat": 37.51281940,
+        "lng": 127.06666642
+      },
+      "mail": "gbdream7979@naver.com",
+      "phone": "02-6435-7979",
+      "personnel": 10,
+      "homepage": "http://www.gbdream.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "어울림청소년쉼터",
+      "age": "14-19세",
+      "sex": true,
+      "code": 1004,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "공항대로 48길 76, 303호(예루뜨빌라)",
+        "city": "강서구",
+        "state": "서울시",
+        "lat": 37.55155716,
+        "lng": 126.85358396
+      },
+      "phone": "02-302-9006",
+      "personnel": 7,
+      "homepage": "https://eowoolim.modoo.at/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "강서청소년쉼터",
+      "age": "13-19세",
+      "sex": false,
+      "code": 1005,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "초록마을로10길 5, 201호",
+        "city": "강서구",
+        "state": "서울시",
+        "lat": 37.54204795,
+        "lng": 126.84923033
+      },
+      "phone": "02-2697-7377",
+      "personnel": 8,
+      "homepage": "http://www.ishelter.or.kr/gnu/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "safehouse7942"
+      },
+      "name": "서울시립신림청소년쉼터",
+      "age": "14-21세",
+      "sex": false,
+      "code": 1006,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "신림로 376 대경빌딩 3층",
+        "city": "관악구",
+        "state": "서울시",
+        "lat": 37.48797248,
+        "lng": 126.92891422
+      },
+      "mail": "shelter8767942@hanmail.net",
+      "phone": "02-876-7942",
+      "personnel": 20,
+      "homepage": "http://www.shelter.or.kr/00_main/main.php"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "KOOMINURI"
+      },
+      "name": "서울시립금천여자중장기청소년쉼터",
+      "age": "14-20세",
+      "sex": true,
+      "code": 1007,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "독산로73길 10-16",
+        "city": "금천구",
+        "state": "서울시",
+        "lat": 37.46829842,
+        "lng": 126.90165937
+      },
+      "mail": "koominuri@naver.com",
+      "phone": "02-6959-1011",
+      "personnel": 8,
+      "homepage": "http://koominuri.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "https://pf.kakao.com/_aExfjM",
+        "facebook": "nuryshelter"
+      },
+      "name": "서울시립용산청소년일시쉼터",
+      "age": "9-24세",
+      "sex": null,
+      "code": 1008,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "만리재로 156-1",
+        "city": "용산구",
+        "state": "서울시",
+        "lat": 37.55282106,
+        "lng": 126.96436070
+      },
+      "mail": "nuryworld1318@gmail.com",
+      "phone": "02-718-1318",
+      "personnel": null,
+      "homepage": "http://www.nuryworld.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "https://pf.kakao.com/_ArqPb",
+        "facebook": null
+      },
+      "name": "서울시립은평여자중장기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 1009,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "통일로 92길 37-6 동산홈타운",
+        "city": "은평구",
+        "state": "서울시",
+        "lat": 37.62623254,
+        "lng": 126.92352654
+      },
+      "mail": "youthep@naver.com",
+      "phone": "02-6959-2401",
+      "personnel": 10,
+      "homepage": "http://www.epshelter.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "mangwoo1388",
+        "facebook": null
+      },
+      "name": "망우청소년단기쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 1010,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "송림길 156",
+        "city": "중랑구",
+        "state": "서울시",
+        "lat": 37.60625670,
+        "lng": 127.10881492
+      },
+      "mail": "mangu1388@naver.com",
+      "phone": "02-493-1388",
+      "personnel": 20,
+      "homepage": "http://www.mangwoo1388.or.kr"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "ic1318"
+      },
+      "name": "인천광역시청소년쉼터 바다의별",
+      "age": "9-24세",
+      "sex": false,
+      "code": 2011,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "남주길 125번길 5",
+        "city": "남구",
+        "state": "인천시",
+        "lat": 37.45417654,
+        "lng": 126.67618244
+      },
+      "mail": "icshelter@hanmail.net",
+      "phone": "032-438-1318",
+      "personnel": 20,
+      "homepage": "http://www.ic1318.org/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "home1318",
+        "facebook": null
+      },
+      "name": "인천광역시청소년중장기쉼터 예꿈",
+      "age": "14-24세",
+      "sex": true,
+      "code": 2012,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 2년"
+      },
+      "location": {
+        "street": "백범로157번길 34-15 원빌리지 301호",
+        "city": "남동구",
+        "state": "인천시",
+        "lat": 37.45562977,
+        "lng": 126.72905959
+      },
+      "mail": "http://www.home1318.com/main/",
+      "phone": "032-465-1393",
+      "personnel": 8,
+      "homepage": "home1318@hanmail.net"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "인천광역시청소년여자쉼터 하모니",
+      "age": "15-24세",
+      "sex": false,
+      "code": 2013,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "제일로 40번길 85 대창스페이스빌라 가동 401호",
+        "city": "미추홀구",
+        "state": "인천시",
+        "lat": 37.44898061,
+        "lng": 126.72633928
+      },
+      "mail": "icshimter@hanmail.net",
+      "phone": "032-875-7718",
+      "personnel": 15,
+      "homepage": "http://www.icshimter.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "별마루-631969283888166"
+      },
+      "name": "인천남자중장기청소년쉼터 별마루",
+      "age": "15-24세",
+      "sex": false,
+      "code": 2014,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "제일로 40번길 85 대창스페이스빌라 가동 401호",
+        "city": "미추홀구",
+        "state": "인천시",
+        "lat": 37.454899,
+        "lng": 126.674475
+      },
+      "mail": "icmshelter@hanmail.net",
+      "phone": "032-875-7718",
+      "personnel": null,
+      "homepage": "http://www.icyouthself.org/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "hwtr1318"
+      },
+      "period": null,
+      "name": "인천광역시일시쉼터한울타리",
+      "age": "9-24세",
+      "sex": null,
+      "code": 2015,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "경인로1059번길 10",
+        "city": "부평구",
+        "state": "인천시",
+        "lat": 37.48725597,
+        "lng": 126.73789851
+      },
+      "mail": null,
+      "phone": "032-516-1318",
+      "personnel": null,
+      "homepage": "https://shnmj.modoo.at/?fbclid=IwAR0Lei8wMMYFRGbwOg5VljZJ5g65EvfCYKMwx1ueWJEDf96toeeeqJal6u4"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "sky2216"
+      },
+      "name": "인천광역시청소년단기쉼터 하늘목장",
+      "age": "9-24세",
+      "sex": true,
+      "code": 2016,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "수변로 45-2 201호",
+        "city": "부평구",
+        "state": "인천시",
+        "lat": 37.45484185,
+        "lng": 126.67450269
+      },
+      "mail": null,
+      "phone": "032-528-2216",
+      "personnel": null,
+      "homepage": "https://shnmj.modoo.at/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "https://pf.kakao.com/_bfxdMs",
+        "facebook": null
+      },
+      "name": "인천광역시청소년단기쉼터 우리들",
+      "age": "9-24세",
+      "sex": false,
+      "code": 2017,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "아트센터로60번길 4 201호",
+        "city": "부평구",
+        "state": "인천시",
+        "lat": 37.47307122,
+        "lng": 126.70354361
+      },
+      "mail": "lovehome@naver.com",
+      "phone": "032-442-1388",
+      "personnel": 15,
+      "homepage": "http://www.lovehome.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "star1318",
+        "facebook": "icstar1318"
+      },
+      "name": "인천광역시청소년일시쉼터 꿈꾸는별",
+      "age": "9-24세",
+      "sex": null,
+      "code": 2018,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "원인재로 156",
+        "city": "연수구",
+        "state": "인천시",
+        "lat": 37.41168287,
+        "lng": 126.68154596
+      },
+      "mail": "ic_star@hanmail.net",
+      "phone": "032-817-1318",
+      "personnel": null,
+      "homepage": "http://www.icstar.net/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "https://pf.kakao.com/_JxgHGxb",
+        "facebook": null
+      },
+      "name": "구리시남자중장기청소년쉼터",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3019,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "검배로 51. 4층 (수택동)",
+        "city": "구리시",
+        "state": "경기도",
+        "lat": 37.59735402,
+        "lng": 127.14468613
+      },
+      "mail": "gurinest@naver.com",
+      "phone": "031-568-1318",
+      "personnel": 10,
+      "homepage": "http://www.gurinest.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "고양시남자단기청소년쉼터(둥지)",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3020,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "일산동구 견달산로 161번길 77",
+        "city": "고양시",
+        "state": "경기도",
+        "lat": 37.68356616,
+        "lng": 126.81935778
+      },
+      "mail": "doongjiboy@hanmail.net",
+      "phone": "031-969-0091",
+      "personnel": 15,
+      "homepage": "http://www.teenteen.or.kr/include/php/main.php"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "고양여자중장기청소년쉼터",
+      "age": "9-24세",
+      "sex": null,
+      "code": 3021,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "일산서구 현중로 26번길 37-9",
+        "city": "고양시",
+        "state": "경기도",
+        "lat": 37.69388120,
+        "lng": 126.76991853
+      },
+      "mail": "13661738@hanmail.net",
+      "phone": "031-918-1366",
+      "personnel": null,
+      "homepage": "http://1366.co.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "군포하나로남자중장기청소년쉼터",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3022,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "군포로 789 온누리청소년센터",
+        "city": "군포시",
+        "state": "경기도",
+        "lat": 37.37552274,
+        "lng": 126.94100237
+      },
+      "mail": null,
+      "phone": "031-399-7997",
+      "personnel": null,
+      "homepage": "http://www.hanaro.sc.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "nyj1319",
+        "facebook": "nyj8322"
+      },
+      "name": "남양주시일시청소년쉼터",
+      "age": "9-24세",
+      "sex": null,
+      "code": 3023,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "홍유릉로 248번길 39, 다남빌딩 203호",
+        "city": "남양주시",
+        "state": "경기도",
+        "lat": 37.62725328,
+        "lng": 127.20241163
+      },
+      "mail": "nyj00@hanmail.net",
+      "phone": "031-591-1319",
+      "personnel": null,
+      "homepage": "http://www.nyj1319.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "부천시단기청소년쉼터(여자, 모퉁이)",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3024,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "부일로763번길 16-23",
+        "city": "부천시",
+        "state": "경기도",
+        "lat": 37.48796141,
+        "lng": 126.81501765
+      },
+      "mail": "motungii@hanmail.net",
+      "phone": "032-343-1880",
+      "personnel": 12,
+      "homepage": "http://motungii.com/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "부천시일시청소년쉼터 별사탕",
+      "age": "9-24세",
+      "sex": null,
+      "code": 3025,
+      "shelter type": {
+        "type": "일시",
+        "period": "7일"
+      },
+      "location": {
+        "street": "부천로54번길 9, 2층",
+        "city": "부천시",
+        "state": "경기도",
+        "lat": 37.48954817,
+        "lng": 126.78418186
+      },
+      "mail": null,
+      "phone": "032-654-1318",
+      "personnel": null,
+      "homepage": null
+    },
+    {
+      "SNS": {
+        "insta": "sn_youthshelter",
+        "kakao": "성남시단기청소년쉼터",
+        "facebook": "purumi2006"
+      },
+      "name": "성남시단기청소년쉼터(남자)",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3026,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "수정구 위례서일로 12 우남이타워 프라자 8층",
+        "city": "성남시",
+        "state": "경기도",
+        "lat": 37.46531798,
+        "lng": 127.13735211
+      },
+      "mail": "purumi2006@naver.com",
+      "phone": "031-722-6260",
+      "personnel": 15,
+      "homepage": "http://www.purumi.net/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "bestboy2011",
+        "facebook": null
+      },
+      "name": "성남시중장기청소년쉼터(남자)",
+      "age": "9-24세",
+      "sex": null,
+      "code": 3027,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "수정구 위례서일로 12 우남이타워프라자 8층",
+        "city": "성남시",
+        "state": "경기도",
+        "lat": 37.46531798,
+        "lng": 127.13735211
+      },
+      "mail": "jnshimter@hanmail.net",
+      "phone": "031-752-9050",
+      "personnel": null,
+      "homepage": "http://www.bestboy.co.kr/?act=main"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "성남시일시청소년쉼터(고정형)",
+      "age": "14-24세",
+      "sex": null,
+      "code": 3028,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "수정구 탄리로 80, 2층 (태평동)",
+        "city": "성남시",
+        "state": "경기도",
+        "lat": 37.44311315,
+        "lng": 127.13588032
+      },
+      "mail": "newdays1213@daum.net",
+      "phone": "031-758-1388",
+      "personnel": null,
+      "homepage": "http://newdays.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "성남시여자단기청소년쉼터",
+      "age": "13-19세",
+      "sex": null,
+      "code": 3029,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "중원구 마지로 29, 럭키주상복합 202호",
+        "city": "성남시",
+        "state": "경기도",
+        "lat": 37.42832407,
+        "lng": 127.13286240
+      },
+      "mail": "newdays1213@daum.net",
+      "phone": "031-758-1213",
+      "personnel": null,
+      "homepage": "http://newdays.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "성남시중장기청소년쉼터(여자)",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3030,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 2년"
+      },
+      "location": {
+        "street": "중원구 원터로106번길 4, 요림빌딩 3층",
+        "city": "성남시",
+        "state": "경기도",
+        "lat": 37.43615971,
+        "lng": 127.14279391
+      },
+      "mail": "newdays1213@daum.net",
+      "phone": "031-758-1720",
+      "personnel": null,
+      "homepage": "http://newdays.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "수원남자청소년쉼터(청소년 달보듬터)",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3031,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "권선구 경수대로261 3층 (세류동, 리치타워)",
+        "city": "수원시",
+        "state": "경기도",
+        "lat": 37.25069971,
+        "lng": 127.01859306
+      },
+      "mail": null,
+      "phone": "031-216-8353",
+      "personnel": null,
+      "homepage": "https://blog.naver.com/suwonshelter8353"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "https://pf.kakao.com/_FEnzK",
+        "facebook": null
+      },
+      "name": "수원여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3032,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "팔달구 행궁로 77",
+        "city": "수원시",
+        "state": "경기도",
+        "lat": 37.27574710,
+        "lng": 127.01589641
+      },
+      "mail": null,
+      "phone": "031-232-7982",
+      "personnel": null,
+      "homepage": "https://blog.naver.com/sw-youthshelter"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "시흥시남자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3033,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "시흥대로 1073번길 4-2",
+        "city": "시흥시",
+        "state": "경기도",
+        "lat": 37.43208521,
+        "lng": 126.79259384
+      },
+      "mail": null,
+      "phone": "031-314-9072",
+      "personnel": null,
+      "homepage": "http://www.kdr79.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "시흥시여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3034,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "오동마을로 33 금광빌딩 4층",
+        "city": "시흥시",
+        "state": "경기도",
+        "lat": 37.35227579,
+        "lng": 126.74529181
+      },
+      "mail": null,
+      "phone": "031-434-1318",
+      "personnel": null,
+      "homepage": "http://www.shgirls.org/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": "jmdr8232"
+      },
+      "name": "안산시남자단기청소년쉼터(징검다리)",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3035,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "단원구 원포공원1로 35. 501호",
+        "city": "안산시",
+        "state": "경기도",
+        "lat": 37.30186605,
+        "lng": 126.81248068
+      },
+      "mail": "jmdr8232@hanmail.net",
+      "phone": "031-481-8232",
+      "personnel": null,
+      "homepage": "http://www.asys.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "안산시여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3036,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "상록구 예술대학로 8길 17",
+        "city": "안산시",
+        "state": "경기도",
+        "lat": 37.33363684,
+        "lng": 126.84334496
+      },
+      "mail": "nurim_1@naver.com",
+      "phone": "031-486-0079",
+      "personnel": 15,
+      "homepage": "http://asfys.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "anyangforyou",
+        "facebook": "foryou9182  "
+      },
+      "name": "안양시남자단기청소년쉼터 FORYOU",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3037,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "동안구 관악대로 346 코오롱동산타워 상가동 401호",
+        "city": "안양시",
+        "state": "경기도",
+        "lat": 37.40341802,
+        "lng": 126.96147221
+      },
+      "mail": "1318foryou@hanmail.net",
+      "phone": "031-455-9182",
+      "personnel": null,
+      "homepage": "http://www.yea21.net/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "안양시여자중장기청소년쉼터 호숙",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3038,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 4년"
+      },
+      "location": {
+        "street": "동안구 경수대로 606, 5층 (호계동, 봉성빌딩)",
+        "city": "안양시",
+        "state": "경기도",
+        "lat": 37.37677793,
+        "lng": 126.95630195
+      },
+      "mail": null,
+      "phone": "031-468-5141",
+      "personnel": null,
+      "homepage": "http://www.yea21.net/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "안양시일시청소년쉼터 민들레뜨락",
+      "age": "9-24세",
+      "sex": null,
+      "code": 3039,
+      "shelter type": {
+        "type": "고정",
+        "period": "7일"
+      },
+      "location": {
+        "street": "만안구 안양로263번길 31. 3층",
+        "city": "안양시",
+        "state": "경기도",
+        "lat": 37.39524985,
+        "lng": 126.92204900
+      },
+      "mail": null,
+      "phone": "031-464-1388",
+      "personnel": null,
+      "homepage": null
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "오산시립여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3040,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "오산로 366, 2층(궐동)",
+        "city": "오산시",
+        "state": "경기도",
+        "lat": 37.15946252,
+        "lng": 127.06666772
+      },
+      "mail": null,
+      "phone": "031-374-1388",
+      "personnel": null,
+      "homepage": null
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "용인시단기청소년쉼터(남자, 푸른꿈)",
+      "age": "13-19세",
+      "sex": false,
+      "code": 3041,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "수지구 문인로 39번길 7(풍덕천동)",
+        "city": "용인시",
+        "state": "경기도",
+        "lat": 37.33235163,
+        "lng": 127.09847300
+      },
+      "mail": "greenyc1@hanmail.net",
+      "phone": "031-276-0770",
+      "personnel": 14,
+      "homepage": "http://www.greendream.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "용인시단기청소년쉼터(여자, 푸른꿈)",
+      "age": "13-19세",
+      "sex": false,
+      "code": 3042,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "수지구 풍덕천로189번길 4-11",
+        "city": "용인시",
+        "state": "경기도",
+        "lat": 37.32727728,
+        "lng": 127.10136713
+      },
+      "mail": "greenyc2@hanmail.net",
+      "phone": "031-264-7733",
+      "personnel": 14,
+      "homepage": "http://www.greendream.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "의정부시남자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3043,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "경의로 56, 유풍빌딩 5층",
+        "city": "의정부시",
+        "state": "경기도",
+        "lat": 37.73272135,
+        "lng": 127.04180429
+      },
+      "mail": "ums1318@hanmail.net",
+      "phone": "031-829-1318",
+      "personnel": 15,
+      "homepage": "http://www.dreamforten.co.kr/"
+    },
+    {
+      "SNS": {
+        "insta": "의정부시여자단기청소년센터",
+        "kakao": "youthhope1318",
+        "facebook": "의청쉼"
+      },
+      "name": "의정부시여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3044,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "비우로12 청소년비전센터 3,4층",
+        "city": "의정부시",
+        "state": "경기도",
+        "lat": 37.75499569,
+        "lng": 127.02978274
+      },
+      "mail": "guide1318@hanmail.net",
+      "phone": "031-837-1318",
+      "personnel": 15,
+      "homepage": "http://www.dreamforten.co.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "이천시여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3045,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "영창로 227번길 28 대호2차아파트 111호",
+        "city": "이천시",
+        "state": "경기도",
+        "lat": 37.28207841,
+        "lng": 127.44829412
+      },
+      "mail": null,
+      "phone": "031-631-7305",
+      "personnel": null,
+      "homepage": "http://www.icfyouth.or.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "평택여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3046,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "매봉산4길 26, 2층 (비전동)",
+        "city": "평택시",
+        "state": "경기도",
+        "lat": 36.99643216,
+        "lng": 127.10733134
+      },
+      "mail": "ptshimter@daum.net",
+      "phone": "031-652-1384",
+      "personnel": 15,
+      "homepage": "http://www.safefamily.kr/"
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": null,
+        "facebook": null
+      },
+      "name": "하남남자중장기청소년쉼터",
+      "age": "9-24세",
+      "sex": false,
+      "code": 3047,
+      "shelter type": {
+        "type": "중장기",
+        "period": "최대 3년"
+      },
+      "location": {
+        "street": "대청로 33 현대베스코아 1001, 1002호",
+        "city": "하남시",
+        "state": "경기도",
+        "lat": 37.54110512,
+        "lng": 127.21599963
+      },
+      "mail": null,
+      "phone": "031-791-1337",
+      "personnel": null,
+      "homepage": null
+    },
+    {
+      "SNS": {
+        "insta": null,
+        "kakao": "shimstar1004",
+        "facebook": "화성쉼터"
+      },
+      "name": "화성여자단기청소년쉼터",
+      "age": "9-24세",
+      "sex": true,
+      "code": 3048,
+      "shelter type": {
+        "type": "단기",
+        "period": "3-9개월"
+      },
+      "location": {
+        "street": "봉담읍 매봉로 478, 대호프라자 303호",
+        "city": "화성시",
+        "state": "경기도",
+        "lat": 37.22367138,
+        "lng": 126.95125558
+      },
+      "mail": "shimstar1004@daum.net",
+      "phone": "031-227-7935",
+      "personnel": 14,
+      "homepage": "www.shimstar.or.kr"
+    }
+  ]
+}

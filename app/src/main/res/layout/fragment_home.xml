@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,13 +14,71 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/map_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        android:layout_height="match_parent">
+
+        <!-- 도시 보기 플로팅 버튼 -->
+
 
         <!-- 나침반 모드 플로팅 버튼 -->
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/viewing_gyunggi"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="79dp"
+            android:backgroundTint="@color/background_color"
+            android:padding="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/gyunggi"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/viewing_incheon"
+            app:layout_constraintTop_toTopOf="@+id/viewing_seoul" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/viewing_seoul"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/background_color"
+            android:padding="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/seoul"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toStartOf="@+id/viewing_incheon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/viewing_incheon"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/background_color"
+            android:padding="0dp"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="0dp"
+            android:text="@string/incheon"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            app:fabSize="mini"
+            app:layout_constraintStart_toEndOf="@+id/viewing_seoul"
+            app:layout_constraintTop_toTopOf="@+id/viewing_seoul" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/enabled_compass"
             android:layout_width="wrap_content"
@@ -34,8 +91,8 @@
             app:fabSize="mini"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:shapeAppearanceOverlay="@style/fabShapeTheme"
             app:srcCompat="@drawable/ic_fab_compass" />
-
         <!-- 필터링 검색 플로팅 버튼 -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/search_filter"
@@ -50,8 +107,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_fab_filter" />
-
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
