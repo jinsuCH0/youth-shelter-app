@@ -9,7 +9,7 @@
       "name": "서울특별시립금천청소년쉼터",
       "age": "9-24(세)",
       "sex": true,
-      "code": 1001,
+      "id": 1001,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -34,7 +34,7 @@
       },
       "name": "서울시립드림일시청소년쉼터",
       "sex": null,
-      "code": 1002,
+      "id": 1002,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -60,7 +60,7 @@
       "name": "서울시립강북청소년드림센터",
       "age": "9-24(세)",
       "sex": false,
-      "code": 1003,
+      "id": 1003,
       "location": {
         "street": "한천로140길 5-26(수유3동)",
         "city": "강북구",
@@ -82,7 +82,7 @@
       "name": "어울림청소년쉼터",
       "age": "14-19세",
       "sex": true,
-      "code": 1004,
+      "id": 1004,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -107,7 +107,7 @@
       "name": "강서청소년쉼터",
       "age": "13-19세",
       "sex": false,
-      "code": 1005,
+      "id": 1005,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -132,7 +132,7 @@
       "name": "서울시립신림청소년쉼터",
       "age": "14-21세",
       "sex": false,
-      "code": 1006,
+      "id": 1006,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -158,7 +158,7 @@
       "name": "서울시립금천여자중장기청소년쉼터",
       "age": "14-20세",
       "sex": true,
-      "code": 1007,
+      "id": 1007,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -184,7 +184,7 @@
       "name": "서울시립용산청소년일시쉼터",
       "age": "9-24세",
       "sex": null,
-      "code": 1008,
+      "id": 1008,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -210,7 +210,7 @@
       "name": "서울시립은평여자중장기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 1009,
+      "id": 1009,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -236,7 +236,7 @@
       "name": "망우청소년단기쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 1010,
+      "id": 1010,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -262,7 +262,7 @@
       "name": "인천광역시청소년쉼터 바다의별",
       "age": "9-24세",
       "sex": false,
-      "code": 2011,
+      "id": 2011,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -288,7 +288,7 @@
       "name": "인천광역시청소년중장기쉼터 예꿈",
       "age": "14-24세",
       "sex": true,
-      "code": 2012,
+      "id": 2012,
       "shelter type": {
         "type": "중장기",
         "period": "최대 2년"
@@ -314,7 +314,7 @@
       "name": "인천광역시청소년여자쉼터 하모니",
       "age": "15-24세",
       "sex": false,
-      "code": 2013,
+      "id": 2013,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -340,7 +340,7 @@
       "name": "인천남자중장기청소년쉼터 별마루",
       "age": "15-24세",
       "sex": false,
-      "code": 2014,
+      "id": 2014,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -367,7 +367,7 @@
       "name": "인천광역시일시쉼터한울타리",
       "age": "9-24세",
       "sex": null,
-      "code": 2015,
+      "id": 2015,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -393,7 +393,7 @@
       "name": "인천광역시청소년단기쉼터 하늘목장",
       "age": "9-24세",
       "sex": true,
-      "code": 2016,
+      "id": 2016,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -419,7 +419,7 @@
       "name": "인천광역시청소년단기쉼터 우리들",
       "age": "9-24세",
       "sex": false,
-      "code": 2017,
+      "id": 2017,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -445,7 +445,7 @@
       "name": "인천광역시청소년일시쉼터 꿈꾸는별",
       "age": "9-24세",
       "sex": null,
-      "code": 2018,
+      "id": 2018,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -471,7 +471,7 @@
       "name": "구리시남자중장기청소년쉼터",
       "age": "9-24세",
       "sex": false,
-      "code": 3019,
+      "id": 3019,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -497,7 +497,7 @@
       "name": "고양시남자단기청소년쉼터(둥지)",
       "age": "9-24세",
       "sex": false,
-      "code": 3020,
+      "id": 3020,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -523,7 +523,7 @@
       "name": "고양여자중장기청소년쉼터",
       "age": "9-24세",
       "sex": null,
-      "code": 3021,
+      "id": 3021,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -549,7 +549,7 @@
       "name": "군포하나로남자중장기청소년쉼터",
       "age": "9-24세",
       "sex": false,
-      "code": 3022,
+      "id": 3022,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -575,7 +575,7 @@
       "name": "남양주시일시청소년쉼터",
       "age": "9-24세",
       "sex": null,
-      "code": 3023,
+      "id": 3023,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -601,7 +601,7 @@
       "name": "부천시단기청소년쉼터(여자, 모퉁이)",
       "age": "9-24세",
       "sex": true,
-      "code": 3024,
+      "id": 3024,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -627,7 +627,7 @@
       "name": "부천시일시청소년쉼터 별사탕",
       "age": "9-24세",
       "sex": null,
-      "code": 3025,
+      "id": 3025,
       "shelter type": {
         "type": "일시",
         "period": "7일"
@@ -653,7 +653,7 @@
       "name": "성남시단기청소년쉼터(남자)",
       "age": "9-24세",
       "sex": false,
-      "code": 3026,
+      "id": 3026,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -679,7 +679,7 @@
       "name": "성남시중장기청소년쉼터(남자)",
       "age": "9-24세",
       "sex": null,
-      "code": 3027,
+      "id": 3027,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -705,7 +705,7 @@
       "name": "성남시일시청소년쉼터(고정형)",
       "age": "14-24세",
       "sex": null,
-      "code": 3028,
+      "id": 3028,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -731,7 +731,7 @@
       "name": "성남시여자단기청소년쉼터",
       "age": "13-19세",
       "sex": null,
-      "code": 3029,
+      "id": 3029,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -757,7 +757,7 @@
       "name": "성남시중장기청소년쉼터(여자)",
       "age": "9-24세",
       "sex": true,
-      "code": 3030,
+      "id": 3030,
       "shelter type": {
         "type": "중장기",
         "period": "최대 2년"
@@ -783,7 +783,7 @@
       "name": "수원남자청소년쉼터(청소년 달보듬터)",
       "age": "9-24세",
       "sex": false,
-      "code": 3031,
+      "id": 3031,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -809,7 +809,7 @@
       "name": "수원여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3032,
+      "id": 3032,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -835,7 +835,7 @@
       "name": "시흥시남자단기청소년쉼터",
       "age": "9-24세",
       "sex": false,
-      "code": 3033,
+      "id": 3033,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -861,7 +861,7 @@
       "name": "시흥시여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3034,
+      "id": 3034,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -887,7 +887,7 @@
       "name": "안산시남자단기청소년쉼터(징검다리)",
       "age": "9-24세",
       "sex": false,
-      "code": 3035,
+      "id": 3035,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -913,7 +913,7 @@
       "name": "안산시여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3036,
+      "id": 3036,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -939,7 +939,7 @@
       "name": "안양시남자단기청소년쉼터 FORYOU",
       "age": "9-24세",
       "sex": false,
-      "code": 3037,
+      "id": 3037,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -965,7 +965,7 @@
       "name": "안양시여자중장기청소년쉼터 호숙",
       "age": "9-24세",
       "sex": true,
-      "code": 3038,
+      "id": 3038,
       "shelter type": {
         "type": "중장기",
         "period": "최대 4년"
@@ -991,7 +991,7 @@
       "name": "안양시일시청소년쉼터 민들레뜨락",
       "age": "9-24세",
       "sex": null,
-      "code": 3039,
+      "id": 3039,
       "shelter type": {
         "type": "고정",
         "period": "7일"
@@ -1017,7 +1017,7 @@
       "name": "오산시립여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3040,
+      "id": 3040,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1043,7 +1043,7 @@
       "name": "용인시단기청소년쉼터(남자, 푸른꿈)",
       "age": "13-19세",
       "sex": false,
-      "code": 3041,
+      "id": 3041,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1069,7 +1069,7 @@
       "name": "용인시단기청소년쉼터(여자, 푸른꿈)",
       "age": "13-19세",
       "sex": false,
-      "code": 3042,
+      "id": 3042,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -1095,7 +1095,7 @@
       "name": "의정부시남자단기청소년쉼터",
       "age": "9-24세",
       "sex": false,
-      "code": 3043,
+      "id": 3043,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1121,7 +1121,7 @@
       "name": "의정부시여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3044,
+      "id": 3044,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1147,7 +1147,7 @@
       "name": "이천시여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3045,
+      "id": 3045,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1173,7 +1173,7 @@
       "name": "평택여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3046,
+      "id": 3046,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"
@@ -1199,7 +1199,7 @@
       "name": "하남남자중장기청소년쉼터",
       "age": "9-24세",
       "sex": false,
-      "code": 3047,
+      "id": 3047,
       "shelter type": {
         "type": "중장기",
         "period": "최대 3년"
@@ -1225,7 +1225,7 @@
       "name": "화성여자단기청소년쉼터",
       "age": "9-24세",
       "sex": true,
-      "code": 3048,
+      "id": 3048,
       "shelter type": {
         "type": "단기",
         "period": "3-9개월"

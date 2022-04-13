@@ -8,5 +8,6 @@ class ShelterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shelter)
+        // TODO: 쉼터 클릭 오버레이 구현
     }
 }

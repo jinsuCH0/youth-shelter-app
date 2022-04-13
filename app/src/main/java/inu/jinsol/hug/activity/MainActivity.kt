@@ -46,10 +46,10 @@ class MainActivity : AppCompatActivity() {
         navView.setOnItemSelectedListener (onBottomNavItemSelectedListener)
     }
 
-//    override fun onBackPressed() {
-//        super.onBackPressed()
-//
-//    }   // 뒤로가기 눌렀을 때 이전 페이지 나타나도록 구현 필요
+    override fun onBackPressed() {
+        super.onBackPressed()
+        // TODO: 뒤로가기 눌렀을 때 이전 페이지 나타나도록 구현 필요 
+    }
 
     // 하단 메뉴 클릭 리스너
    private val onBottomNavItemSelectedListener = NavigationBarView.OnItemSelectedListener {
@@ -58,8 +58,7 @@ class MainActivity : AppCompatActivity() {
         when(it.itemId){
             R.id.navigation_home -> {
                 Log.d(TAG, "MainActivity - 홈버튼 클릭!")
-
-
+                // TODO: 홈버튼 두번 눌렀을 때 mapview 중첩되서 튕기는 오류 해결 필요 
                 supportFragmentManager.beginTransaction().replace(R.id.container, HomeFragment()).commit()
                 Log.d(TAG, "current fragment - ${current.toString()}")
             }

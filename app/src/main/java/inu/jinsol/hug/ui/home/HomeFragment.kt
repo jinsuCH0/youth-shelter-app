@@ -69,6 +69,7 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
         binding.enabledCompass.setOnClickListener { view ->
             var select = false
 
+            // TODO: 나침반모드 해제 구현
             if (!select) {
                 select = true
                 Snackbar.make(view, "나침반 모드를 활성화합니다.", Snackbar.LENGTH_LONG)
@@ -99,6 +100,7 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
     }
 
     private fun createMarker(mapView: MapView) {
+        // TODO: 마커생성 메소드 구현 필요
         val mapPoint = MapPoint.mapPointWithGeoCoord(37.28730797086605, 127.01192716921177)
         val marker = MapPOIItem()
         marker.itemName = "이곳이 수원 화성입니다"
@@ -107,10 +109,6 @@ class HomeFragment : Fragment(), MapView.CurrentLocationEventListener {
         marker.selectedMarkerType = MapPOIItem.MarkerType.RedPin
 
         mapView.addPOIItem(marker)
-    }
-
-    private fun viewingCity(){
-
     }
 
     override fun onAttach(context: Context) {
