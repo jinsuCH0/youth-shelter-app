@@ -48,9 +48,7 @@
         android:id="@+id/txt_filter_birth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="40dp"
-
         android:text="@string/txt_title_birth"
         android:textColor="@color/main_color"
         android:textSize="20sp"

@@ -3,17 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HUG/app/src/main/res/drawable/boderline_search.xml" value="0.1975" />
         <entry key="..\:/HUG/app/src/main/res/drawable/borderline_info.xml" value="0.1" />
         <entry key="..\:/HUG/app/src/main/res/layout/activity_filtering.xml" value="0.264" />
         <entry key="..\:/HUG/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/HUG/app/src/main/res/layout/activity_shelter.xml" value="0.2552083333333333" />
         <entry key="..\:/HUG/app/src/main/res/layout/child_listview.xml" value="0.72" />
-        <entry key="..\:/HUG/app/src/main/res/layout/fragment_home.xml" value="0.8800000000000001" />
+        <entry key="..\:/HUG/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/HUG/app/src/main/res/layout/fragment_shelter.xml" value="0.2552083333333333" />
         <entry key="..\:/HUG/app/src/main/res/layout/fragment_shelterinfo.xml" value="0.264" />
-        <entry key="..\:/HUG/app/src/main/res/layout/fragment_shelterlist.xml" value="0.4" />
-        <entry key="..\:/HUG/app/src/main/res/layout/fragment_sheltersearch.xml" value="0.2552083333333333" />
-        <entry key="..\:/HUG/app/src/main/res/layout/list_item.xml" value="0.264" />
+        <entry key="..\:/HUG/app/src/main/res/layout/fragment_shelterlist.xml" value="0.264" />
+        <entry key="..\:/HUG/app/src/main/res/layout/fragment_sheltersearch.xml" value="0.264" />
+        <entry key="..\:/HUG/app/src/main/res/layout/list_item.xml" value="0.4" />
+        <entry key="..\:/HUG/app/src/main/res/layout/list_search_result.xml" value="0.4" />
         <entry key="..\:/HUG/app/src/main/res/layout/parent_listview.xml" value="0.2552083333333333" />
         <entry key="..\:/HUG/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2552083333333333" />
         <entry key="..\:/HUG/app/src/main/res/xml/network_security_config.xml" value="0.1" />

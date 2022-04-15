@@ -5,7 +5,7 @@
     <string name="title_home">HUG</string>
     <string name="title_shelter_info">청소년 쉼터란?</string>
     <string name="title_shelter_list">쉼터 리스트</string>
-    <string name="title_shelter_search">쉼터 찾기</string>
+    <string name="title_shelter_search">근처 쉼터 찾기</string>
     <string name="title_chat">1대1 상담</string>
 
     <!-- TextView 타이틀 string values -->
@@ -23,7 +23,8 @@
     <!--  청소년 쉼터란?  -->
     <string name="txt_title_shelterinfo">선생님! 청소년 쉼터는 어떤 곳이죠?</string>
 
-
+    <!--  가까운쉼터 찾기  -->
+    <string name="txt_search">학교에서 제일 가까운 쉼터가 궁금하신가요?\n 검색하시면 알려드립니다!</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
